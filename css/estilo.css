@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/*Limpar fomrataçõs padrão */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, rgb(216, 51, 234) 20%, rgb(3, 45, 231));
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+}
+main, aside, footer {
+ 
+  background-color: #FFF;
+  border-radius: 10px;
+	display: flex;
+  border-style:groove;
+
+	margin: 3px;
+} 
+main {
+	/* Realizar a subtração de 100% da altura vertical menos a soma    */
+	/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
+	flex: 20 1 500px;
+  justify-content: center;
+
+}
+footer {
+	/* Altura do elemento. */
+	flex: 1 1 100vw;
+  justify-content: center;
+  dis 
+
+}
+a {
+	/* Remove a decoração padrão do elemento. */
+	text-decoration: none;
+
+	/* Definir a cor da fonte para o padrão do elemento pai. */
+	color: inherit;
+}
+aside {
+	/* Junção de flex-grow, flex-shrink e flex-basis.  */
+	/* flex-grow – Habilidade de um flex item crescer. */
+	/* flex-shrink - Capacidade de redução do item.    */
+	/* flex-basis – Tamanho inicial do item.           */
+	flex: 1 1 200px;
+  border-style: dotted;
+
+
+}
+.ggs{
+  display: flex;
+  flex-wrap: wrap;
+	flex: 1 1 100vw;
+	margin: 3px;
+}
+aside {
+
+  justify-content: center;
+  display: block;
+  align-items: center;
+  height: 260px;
+}
+
+/*Layout */
+#area-cabecalho {
+  
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo, #area-menu {
+  padding: 10px;
+}
+
+#area-principal{
+  width: 920px;
+  margin: 0 auto; /* auto paramargm autoática */
+}
+
+
+
+#area-postagens{
+  width: 660px;
+  float: left;
+  justify-content: center;
+}
+
+#area-lateral{
+  width: 240px;
+  float: right;
+}
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+
+  justify-content: center;
+
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #CCC;
+}
+
+a:link, a:visited{
+  color: #FFF;
+  padding: 8px 12px;
+}
+
+a:hover{
+  color: #f7b600;
+
+
+}
+
+/*Formatação em geral */
+h1{
+  color: #000000;
+  font-size: 2.5em;
+
+  }
+h2{
+  color: #000000;
+  font-size: 2.0em;
+}
+
+.branco {
+  color: white;
+}
+#preto{
+  color: #000000;
+}
+#vermelho{
+  color: ;
+}
+button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+button:hover {
+	border-color: rgb(212, 7, 7);
+	color: rgb(0, 0, 0);
+}
+#MenuLat{
+  margin-left: 5px;
+}
